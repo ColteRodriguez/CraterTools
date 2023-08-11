@@ -1,3 +1,5 @@
+# Messing around with boulder vs crater geometries. Use crater_from_shadow.py instead
+
 from qgis.core import QgsVectorLayer, QgsProject
 
 # Path to the first shapefile
