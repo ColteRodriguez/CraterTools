@@ -205,8 +205,7 @@ def walk_from_seed(band, layer):
             craters are typically located in regions of very low variance so the threshold should be lower -- the 
             opposite is true for boulders -> larger threshold (This should help with the different shades in boulders)
         
-        3. DFS avoids double looping (reducing runtime), but (from my limited experience with dfs) 
-            requires links and OOP(?)
+        3. DFS avoids double looping (reducing runtime), but is optimized for oop languages, and its worth not re-writing in Java
         '''
         perimeters = []
         similar_count = 0
